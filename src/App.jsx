@@ -1,15 +1,13 @@
-import About from './About'
 import './App.css'
-import Home from './home'
-
+import NavBar from './NavBar'
+import UrlShortener from './UrlShortener'
 function App() {
 
   return (
-    <>
-      <h1>hello world</h1>
-      <Home />
-      <About />
-    </>
+    <div className='bg-gradient-to-r from-cyan-800 via-cyan-500 to-cyan-300 h-screen items-center justify-center'>
+      <NavBar />
+      <UrlShortener />
+    </div>
   )
 }
 
